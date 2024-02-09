@@ -1,7 +1,9 @@
+import './styles/Contact.css'
+
 function Contact() {
     return(
         <div className="contact">
-            <h2>Get in Touch with Hera's Dream Dwellings</h2>
+            <h2 id='welcome'>Get in Touch with Hera's Dream Dwellings</h2>
             <div>
                 <h3>Address:</h3>
                 <p>123 Dream Home Street,
@@ -24,12 +26,18 @@ Cityville, State, Zip Code</p>
                 <p>Saturday: 10:00 AM - 4:00 PM</p>
                 <p>Sunday: Closed</p>
             </div>
-            <div>
+            <div id='links'>
                 <h3>Connect with Us:</h3>
-                <a href="www.facebook.com/heracrown">Facebook</a>
-                <a href="www.youtube.com/heracrown">Facebook</a>
-                <a href="www.instagram.com/heracrown">Facebook</a>
-                <a href="www.tiktok.com/heracrown">Facebook</a>
+
+                <a href="www.facebook.com/heracrown">
+                    <img src=""></img>
+                    Facebook
+                </a>
+                <a href="www.youtube.com/heracrown">
+                    <img src=""></img>
+                YouTube</a>
+                <a href="www.instagram.com/heracrown">Instagram</a>
+                <a href="www.tiktok.com/heracrown">Tiktok</a>
             </div>
             <div>
                 <h3>Frequently Asked Questions:</h3>

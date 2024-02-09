@@ -1,59 +1,37 @@
+import './styles/About.css'
+
 function About() {
     return(
-        <div className="contact">
-            <h2>Get in Touch with Hera's Dream Dwellings</h2>
+        <div className="about">
             <div>
-                <h3>Address:</h3>
-                <p>123 Dream Home Street,
-Cityville, State, Zip Code</p>
+                <h2 id='welcome'>Welcome to Hera's Dream Dwellings</h2>
+                <p>At Hera's Dream Dwellings, we believe that finding the perfect home is not just about the property; it's about discovering the place where your dreams take root and flourish. Established in [year], our journey began with a passion for helping individuals and families find their ideal homes, and it continues with an unwavering commitment to excellence in real estate services.</p>
             </div>
             <div>
-                <h3>Phone:</h3>
-                <p>Main Office: +1 (123) 456-7890</p>
-                <p>Sales Inquiries: +1 (987) 654-3210</p>
+                <h2>Our mission</h2>
+                <p>Our mission is simple yet profound: to guide and support you through every step of your real estate journey. We strive to create meaningful connections between people and properties, transforming houses into homes and aspirations into realities.</p>
             </div>
             <div>
-                <h3>Email:</h3>
-                <p>General Inquiries: info@herasdreamdwellings.com</p>
-                <p>Sales Department: sales@herasdreamdwellings.com</p>
-                <p>Support: support@herasdreamdwellings.com</p>
+                <h2>A Legacy of Trust and Expertise</h2>
+                <p>With over 10 years of experience, Hera's Dream Dwellings has been a cornerstone in the real estate industry. Our team comprises dedicated professionals with extensive knowledge and a shared commitment to providing personalized solutions that cater to your unique needs.</p>
             </div>
             <div>
-                <h3>Office Hours:</h3>
-                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                <p>Saturday: 10:00 AM - 4:00 PM</p>
-                <p>Sunday: Closed</p>
+                <h2>Meet Our Team</h2>
+                <p>Behind Hera's Dream Dwellings stands a team of passionate individuals driven by a collective vision: to redefine real estate by placing your satisfaction at the forefront. Our experts bring a wealth of knowledge and an unwavering dedication to delivering unparalleled service.</p>
             </div>
             <div>
-                <h3>Connect with Us:</h3>
-                <a href="www.facebook.com/heracrown">Facebook</a>
-                <a href="www.youtube.com/heracrown">Facebook</a>
-                <a href="www.instagram.com/heracrown">Facebook</a>
-                <a href="www.tiktok.com/heracrown">Facebook</a>
+                <h2>Client-Centric Excellence</h2>
+                <p>Your satisfaction is our priority. We take pride in going above and beyond to exceed your expectations. Every client interaction is an opportunity for us to showcase our commitment to providing tailored solutions and unparalleled support.</p>
             </div>
             <div>
-                <h3>Frequently Asked Questions:</h3>
-                <h4>1. What types of properties do you deal with?</h4>
-                <p>At Hera's Dream Dwellings, we specialize in a wide range of properties, including residential homes, apartments, condominiums, commercial spaces, and land.</p>
-                <h4>2. How can I schedule a property viewing?</h4>
-                <p>You can schedule a property viewing by contacting our Sales Department at +1 (987) 654-3210 or emailing us at sales@herasdreamdwellings.com. Our team will assist you in arranging a convenient time for the viewing.</p>
-                <h4>3. What should I consider before buying a property?</h4>
-                <p>Before making a purchase, it's essential to consider factors such as location, budget, property size, amenities, and future growth potential. Our experienced agents can guide you through this process.</p>
-                <h4>4. How long does the buying/selling process usually take?</h4>
-                <p>The duration can vary based on several factors, including the type of property, market conditions, and legal procedures. On average, the buying or selling process may take anywhere from several weeks to a few months.</p>
-                <h4>5. What services do you offer for property sellers?</h4>
-                <p>We offer comprehensive services for property sellers, including property valuation, marketing strategies, connecting with potential buyers, negotiations, and closing assistance.</p>
-                <h4>6. Can I get a mortgage through Hera's Dream Dwellings?</h4>
-                <p>While we don't provide mortgage services directly, we collaborate with reputable financial institutions and can connect you with trusted mortgage advisors to assist you in securing financing.</p>
-                <h4>7. Are there any additional fees when purchasing a property through your agency?</h4>
-                <p>Our agency charges a standard commission fee for our services, typically a percentage of the property's sale price. We ensure transparency regarding all fees and costs involved in the transaction.</p>
-                <h4>8. How can I list my property with Hera's Dream Dwellings?</h4>
-                <p>To list your property with us, please reach out to our Sales Department at sales@herasdreamdwellings.com. Our team will guide you through the listing process.</p>
-                <h4>9. What areas do you serve?</h4>
-                <p>We serve in San Francisco, New York and L.A. and are continually expanding our reach to assist clients in finding properties across various locations.</p>
-                <h4>10. How can I get updates on new property listings?</h4>
-                <p>You can stay updated on new property listings by subscribing to our newsletter or following us on our social media channels for regular updates and announcements.</p>
+                <h2>Building Communities Togethere</h2>
+                <p>Beyond real estate transactions, we are deeply invested in supporting the communities we serve. Through various initiatives and partnerships, we strive to contribute positively to the neighborhoods and cities we call home.</p>
+            </div>
+            <div>
+                <h2>Looking to the Future</h2>
+                <p>As we move forward, Hera's Dream Dwellings remains committed to innovation, growth, and continuing to be a trusted partner in your real estate endeavors. Our vision is to expand our services while maintaining the personalized touch that defines us.
 
+                Thank you for considering Hera's Dream Dwellings for your real estate needs. Join us on this journey, and let's turn your dreams into addresses together.</p>
             </div>
         </div>
     )
